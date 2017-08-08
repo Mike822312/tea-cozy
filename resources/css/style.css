@@ -49,5 +49,8 @@ span {
 }
 
 .mission {
-  display: flex;
+  display:f lex;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
 }
