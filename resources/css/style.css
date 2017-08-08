@@ -4,26 +4,34 @@ body {
   font-size: 22px;
   opacity:0.9;
   color: seashell;
+  margin: 0;
+}
 
+html {
+  margin:0
 }
 
 .header {
 display: flex;
-justify-content: flex-start;
+justify-content: space-between;
 width: 100%;
-min-height: 69px;
+height: 69px;
 position: fixed;
-border-bottom: 1px solid seashell;
+border-bottom: 1px solid seashell
+
 }
 
 #logo{
-  height: 50px;
+  padding-top: 5px;
   padding-left: 10px;
+  height: 50px;
+  align-items: center;
 
 }
 
 .navbar{
   display: inline-flex;
+  align-items: center;
 }
 
 a {
@@ -33,4 +41,13 @@ a {
 ul {
   list-style-type: none;
 
+}
+
+span {
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.mission {
+  display: flex;
 }
