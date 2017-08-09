@@ -56,7 +56,7 @@ background-color: black;
 }
 
 
-.tea-month{
+.tea-month {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -68,6 +68,19 @@ background-color: black;
   width:300px;
   height: 200px;
   padding: 0 15px;
+}
+
+.locations-container {
+  display: flex;
+
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.locations-boxes {
+  display: flex;
 }
 
 #logo{
@@ -93,4 +106,16 @@ background-color: black;
 #bedford h4
 {
   margin-top: 10px;
+}
+
+#locations{
+  min-width: 1200px ;
+
+}
+#downtown,
+#east-bayside,
+#oakdale {
+  background-color: black;
+  width: 300px;
+
 }
