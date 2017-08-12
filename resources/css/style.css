@@ -4,7 +4,7 @@ body {
   font-size: 22px;
   opacity:0.9;
   color: seashell;
-  margin: 0
+  margin: auto;
 }
 
 html {
@@ -15,9 +15,14 @@ a {
   color: seashell;
 }
 
-h1,
 h2,
 h4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -29,6 +34,7 @@ span {
 .header {
 display: flex;
 justify-content: space-between;
+align-items: center;
 width: 100%;
 min-height: 69px;
 position: fixed;
@@ -47,20 +53,35 @@ background-color: black;
 .mission-container {
 
   display: flex;
-  margin: 0 auto;
-  padding-top: 34px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
   width: 1200px;
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
-  align-items: center;
+  margin: auto;
 }
 
 
 .tea-month {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.whats-steeping {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   width: 1000px;
 }
 
@@ -72,20 +93,25 @@ background-color: black;
 
 .locations-container {
   display: flex;
-
-  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
+  margin: 30px auto;
 }
 
 .locations-boxes {
   display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  opacity: 1;
+
 }
 
 #logo{
-  padding-top: 5px;
-  padding-left: 10px;
+
+  margin-left: 10px;
   height: 50px;
   align-items: center;
 
@@ -95,6 +121,7 @@ background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   background-color: black;
   width: 100%;
 }
@@ -108,14 +135,43 @@ background-color: black;
   margin-top: 10px;
 }
 
-#locations{
-  min-width: 1200px ;
+#locations h2{
+ min-width: 1200px;
+ margin: 0px;
+}
+
+#downtown {
+background-color: black;
+width: 300px;
+text-align: center;
+margin-right: 40px;
 
 }
-#downtown,
-#east-bayside,
+
+#east-bayside {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  margin-right: 40px;
+}
+
 #oakdale {
   background-color: black;
   width: 300px;
+  text-align: center;
+  margin-right: 40px;
 
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#copyright {
+  margin-left: 20px;
 }
