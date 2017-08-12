@@ -32,15 +32,15 @@ span {
 }
 
 .header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-min-height: 69px;
-position: fixed;
-border-bottom: 1px solid seashell;
-top: auto;
-background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  top: auto;
+  background-color: black;
 
 }
 
@@ -74,15 +74,6 @@ background-color: black;
   margin-right: 100px;
   width: 1000px;
   margin: 30px auto;
-}
-
-.whats-steeping {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 1000px;
 }
 
 .teas {
@@ -126,6 +117,15 @@ background-color: black;
   width: 100%;
 }
 
+#whats-steeping {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1000px;
+}
+
 #blitz h4,
 #spiced-rum h4,
 #donut h4,
@@ -136,15 +136,15 @@ background-color: black;
 }
 
 #locations h2{
- min-width: 1200px;
- margin: 0px;
+  min-width: 1200px;
+  margin: 0px;
 }
 
 #downtown {
-background-color: black;
-width: 300px;
-text-align: center;
-margin-right: 40px;
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  margin-right: 40px;
 
 }
 
